@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zaira Peinado - Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style/icon.css">
+		<link rel="stylesheet" href="style/animate.css">
+		<link rel="stylesheet" href="style/animsition.min.css">
+		<link rel="stylesheet" href="style/stylesheet.css">
+		<link rel="stylesheet" href="style/swiper.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="script/portfolio.js"></script>
+	</head>
+	<body class="no-scrolling animsition" data-animsition-in="zoom-in" data-animsition-out="zoom-out">
+
+		<!-- 
+
+		THE HEADER 
+
+		-->
+
+		<header>
+			<div class="container">
+				<div class="for_con">
+					<div class="brand">
+						<a href="index.html" class="logo-text">zaira <span class="yellow">peinado</span></a>
+					</div>
+					<div class="toggle_nav"><button class="cmn-toggle-switch cmn-toggle-switch__htx"><span></span></button></div>
+					<nav class="navigation">
+						<div class="nav-item"><a href="index.html#home">inicio			</a></div>
+						<div class="nav-item"><a href="index.html#service">servicios		</a></div>
+						<div class="nav-item"><a href="index.html#portfolio">portfolio	</a></div>
+						<div class="nav-item"><a href="index.html#contact">contacto		</a></div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="title-page">
+		
+			<div class="container no-padding">
+				<div class="post-container">
+					<div class="portfolio portfolio-block menu-go">
+						<div class="portfolio_photos row no_row wow fadeInUp">
+							<div class="row small-pading">
+								<script>
+									for (i = 0; i < portfolio.length; i++) {
+										document.write('<div class="col-md-4">');
+										document.write('	<a href="img.html?id=' + portfolio[i].id + '" class="about_pic">');
+										document.write('		<img class="img-responsive" src="img/port_' + portfolio[i].id + '_s.jpg" alt="">');
+										document.write('		<div class="about_pic_text">');
+										document.write('			<div class="v_text">');
+										document.write('				<h5>' + portfolio[i].title + '</h5>');
+										document.write('			</div>');
+										document.write('		</div>');
+										document.write('	</a>');
+										document.write('</div>');
+									}
+								</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<i class="fa fa-angle-up"></i>
+				<p>© 2015 Copyright </p><p class="yellow">ZAIRA PEINADO</p><p> - Created by <a href="https://twitter.com/djpeinado">@djpeinado</a> </p>
+			</div>
+		</footer>∫
+
+		<!-- SCRIPTS -->
+
+			<!-- JQUERY -->
+		<script src="script/jquery-2.1.4.min.js"></script>	
+			<!-- a swiper -->
+		<script src="script/swiper.jquery.js"></script>
+			<!-- animations -->
+		<script src="script/wow.min.js"></script>
+			<!-- lightbox -->
+		<script src="script/imagelightbox.min.js"></script>
+			<!-- loader -->
+		<script src="script/jquery.animsition.min.js"></script>
+			<!-- MY SCRIPT -->
+		<script src="script/script.js"></script>
+			<!-- animation number library -->
+		<script src="script/jquery.animateNumber.min.js"></script>
+			<!-- animation settings -->
+
+
+		<script>
+		    var wow = new WOW(
+		        {
+		            boxClass:     'wow',      // animated element css class (default is wow)
+		            animateClass: 'animated', // animation css class (default is animated)
+		            offset:       100,          // distance to the element when triggering the animation (default is 0)
+		            mobile:       false,       // trigger animations on mobile devices (default is true)
+		            live:         true,       // act on asynchronously loaded content (default is true)
+		            callback:     function(box) {
+		              // the callback is fired every time an animation is started
+		              // the argument that is passed in is the DOM node being animated
+		            }
+		        }
+		    );
+		    $(window).load(function(){
+		        wow.init();    
+		    });
+		</script>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-73155891-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+
+	</body>
+</html>

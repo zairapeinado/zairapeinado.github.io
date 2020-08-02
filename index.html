@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zaira Peinado - Arquitectura e Interiorismo - Zaragoza</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Zaira Peinado - Doctora en Arquitectura e Interiorista - Zaragoza">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link rel="stylesheet" href="style/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style/icon.css">
+		<link rel="stylesheet" href="style/animate.css">
+		<link rel="stylesheet" href="style/animsition.min.css">
+		<link rel="stylesheet" href="style/swiper.css">
+		<link rel="stylesheet" href="style/stylesheet.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- PORTFOLIO -->
+		<script src="script/portfolio.js"></script>
+	</head>
+	<body class="animsition" data-animsition-in="zoom-in" data-animsition-out="zoom-out">
+
+		<!-- 
+
+		THE HEADER 
+
+		-->
+
+		<header>
+			<div class="container">
+				<div class="for_con">
+					<div class="brand">
+						<a href="" class="logo-text">zaira <span class="yellow">peinado</span></a>
+					</div>
+					<div class="toggle_nav"><button class="cmn-toggle-switch cmn-toggle-switch__htx"><span></span></button></div>
+					<nav class="navigation">
+						<div class="nav-item"><a href="#home">inicio			</a></div>
+						<div class="nav-item"><a href="#service">servicios		</a></div>
+						<div class="nav-item"><a href="#portfolio">portfolio	</a></div>
+						<div class="nav-item"><a href="#about">sobre mí			</a></div>
+						<div class="nav-item"><a href="#contact">contacto		</a></div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="title-page">
+		
+			<div class="container no-padding">
+				<div id="home" class="swiper-container photo-slider wow BounceInUp menu-go" data-autoplay="3500" data-loop="1" data-speed="1500" data-center="0" data-slides-per-view="1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slider-photo">
+								<img class="center-image" src="img/slider1.jpg" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slider-photo">
+								<img class="center-image" src="img/slider2.jpg" alt="">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slider-photo">
+								<img class="center-image" src="img/slider3.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<i class="fa fa-angle-left   arrow-left"></i>
+					<i class="fa fa-angle-right  arrow-right"></i>
+					<div class="pagination"></div>
+				</div>
+				<h1 class="start-page"><span class="zairapeinado">ZAIRA <span class="yellow">PEINADO</span></span> - Arquitectura e Interiorismo</h1>
+				<h1 class="start-page">ZARAGOZA</h1>
+				<div class="post-container">
+					<div id="service" class="our_service row no_row menu-go">
+						<h2>
+							SERVICIOS
+						</h2>
+						<div class="icon-wrapper row">
+							<div class="icon-entry col-md-3 col-xs-6 wow fadeInRight">
+								<div class="icon-logo"><i class="fa fa-cube"></i></div>
+								<div class="icon-desc">
+									<h3 class="r1">ArchViz</h3>
+									<p>Visualización arquitectónica, <br/>de interiorismo y sector inmobiliario. Fotorrealismo, realidad virtual e imágenes 360º.</p>
+								</div>
+							</div>
+							<div class="icon-entry col-md-3 col-xs-6 wow fadeInRight">
+								<div class="icon-logo"><i class="fa fa-graduation-cap"></i></div>
+								<div class="icon-desc">
+									<h3>Formación</h3>
+									<p>3DSMax + VRay, Rhinoceros + VRay, Unreal Engine 4, Twinmotion, Sketchup, Cinema4D y Revit.</p>
+								</div>
+							</div>
+							<div class="icon-entry col-md-3 col-xs-6 wow fadeInLeft">
+								<div class="icon-logo"><i class="fa fa-cubes"></i></div>
+								<div class="icon-desc">
+									<h3>proyectos de interiorismo</h3>
+									<p>Proyectos para adecuación o reforma de locales y viviendas.</p>
+								</div>
+							</div>
+							<div class="icon-entry col-md-3 col-xs-6 wow fadeInLeft">
+								<div class="icon-logo"><i class="fa fa-building-o"></i></div>
+								<div class="icon-desc">
+									<h3>proyectos de arquitectura</h3>
+									<p>Residencial e Institucional</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div id="portfolio" class="portfolio menu-go">
+						<h2>PORTFOLIO</h2>
+						<div class="portfolio_photos row no_row wow fadeInUp">
+							<div class="row small-pading">
+								<script>
+									for (i = 0; i < portfolio.length; i++) {
+										document.write('<div class="col-md-4">');
+										document.write('	<a href="img.html?id=' + portfolio[i].id + '" class="about_pic">');
+										document.write('		<img class="img-responsive" src="img/port_' + portfolio[i].id + '_s.jpg" alt="">');
+										document.write('		<div class="about_pic_text">');
+										document.write('			<div class="v_text">');
+										document.write('				<h5>' + portfolio[i].title + '</h5>');
+										document.write('			</div>');
+										document.write('		</div>');
+										document.write('	</a>');
+										document.write('</div>');
+									}
+								</script>
+						</div>
+					</div>
+					<div id="about" class="about row no_row menu-go">
+						<h2>SOBRE MÍ</h2>
+						<div class="col-md-4 wow fadeInLeft">
+							<div class="profile-photo">
+								<img alt="" src="img/zairapeinado1.jpg">
+							</div>
+						</div>
+						<div class="col-md-8 wow fadeInRight">
+							<p>
+								Doctora por la UPC (ETSAB) en 2014 y arquitecta por la Universidad de Valladolid (ETSAV) en 2006.
+							</p>
+							<p>
+								En 2005, fui becada para colaborar en el estudio de Archittetura di Mauro Sannoner en Milano con Beca Faro.
+							</p>
+							<p>
+								En Zaragoza he colaborado en los estudios de arquitectura de Farinós obteniendo el Primer Premio en la Ampliación del Hospital Royo Villanova y 105 Viviendas en el Seminario para Acciona Inmobiliaria.
+								También he trabajado junto a Bang Studio y en Lorente Arquitectos participando en el área de urbanismo desarrollando los Planes Generales de Tamarite de Litera, Ontiñena, Blesa, Gallocanta, Murero, Alfántega...
+							</p>
+						</div>
+						<div class="col-md-12 wow fadeInUp">
+							<p>
+								He colaborado en el Programa de “estonoesunsolar” 2009 y 2010 para Zaragoza Vivienda.
+							</p>
+							<p>
+								En 2010 obtuve el Máster de Gestión del Patrimonio Cultural con un proyecto final de propuesta de Museo de Artes Gráficas en la antigua Imprenta Blasco.
+							<p>
+								He sido concejal del Ayuntamiento de Ágreda en la Comisión de Urbanismo, Edificación y Sanidad de 2011 a 2015 y llevé la dirección de obra del Centro Neurosquiatrico de Nuestra Señora del Carmen (Garrapinillos).
+							</p>
+							<p>
+								Entre 2010 y 2016 he sido profesora asociada del área de Expresión Gráfica Arquitectónica de la Universidad de Zaragoza, profesora en DGA de Proyectos de Edificación, participando en varios congresos internacionales y en revistas de temática relacionada con la expresión gráfica, el patrimonio y la fotogrametría arquitectónica. Finalmente desarrollando la tesis doctoral sobre la documentación gráfica del patrimonio arquitectónico de Ágreda con la calificación de Sobresaliente Cum Laude.
+							</p>
+							<p>
+								Desde 2016 hasta la actualidad, soy profesora en la Escuela de Arte de Zaragoza como miembro del departamento de Diseño de Interiores y desde 2019 en Medios Informáticos.
+							</p>
+						</div>
+					</div>
+					<div id="contact" class="torch row no_row menu-go">
+						<div class="row">
+							<div class="col-md-6">
+								<div>
+									<h2>CONTACTO</h2>
+								</div>
+								<div class="address wow fadeInLeft">
+									<div class="address-block">
+										<h3>TELÉFONO / EMAIL</h3>
+										<i>
+											<a href="tel:+34605845906">605 84 59 06</a><br>
+											<a href="mailto:info@zairapeinado.com">info@zairapeinado.com</a><br>
+											ZARAGOZA
+										</i>
+									</div>
+									<div class="address-block">
+										<h3>REDES SOCIALES</h3>
+										<a class="fa fa-linkedin-square" href="https://www.linkedin.com/pub/zaira-peinado-checa/51/50/b24"></a>
+										<a class="fa fa-twitter-square" href="https://twitter.com/ZairaPeinado"></a>
+										<a class="fa fa-instagram" href="https://instagram.com/zairapeinado/"></a>
+										<a class="fa fa-pinterest-square" href="https://es.pinterest.com/zairapeinadoche/"></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div>
+									<h2>COLABORADORES</h2>
+								</div>
+								<div class="wow fadeInRight">
+									<div style="margin-top: 40px">
+										<a href="http://www.dovelaarquitectura.com/"><img alt="dovelaarquitectura" src="img/dovela.png"></a>
+									</div>
+									<div style="margin-top: 40px">
+										<a href="http://www.zaragozasi.es/"><img alt="zaragozasi" src="img/zaragozasi.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<i class="fa fa-angle-up"></i>
+				<p>© 2015 Copyright </p><p class="yellow">ZAIRA PEINADO</p><p> - Created by <a href="https://twitter.com/djpeinado">@djpeinado</a> </p>
+			</div>
+		</footer>
+
+		<!-- SCRIPTS -->
+
+			<!-- JQUERY -->
+		<script src="script/jquery-2.1.4.min.js"></script>
+		    <!-- a swiper -->
+		<script src="script/swiper.jquery.js"></script>
+			<!-- animations -->
+		<script src="script/wow.min.js"></script>
+			<!-- lightbox -->
+			<script src="script/jquery.placeholder.min.js"></script>
+		<script src="script/imagelightbox.min.js"></script>
+			<!-- loader -->
+		<script src="script/jquery.animsition.min.js"></script>
+			<!-- animation number library -->
+		<script src="script/jquery.animateNumber.min.js"></script>
+			<!-- MY SCRIPT -->
+		<script src="script/script.js"></script>
+			<!-- animation settings -->
+
+		<script>
+		    var wow = new WOW(
+		        {
+		            boxClass:     'wow',      // animated element css class (default is wow)
+		            animateClass: 'animated', // animation css class (default is animated)
+		            offset:       100,          // distance to the element when triggering the animation (default is 0)
+		            mobile:       false,       // trigger animations on mobile devices (default is true)
+		            live:         true,       // act on asynchronously loaded content (default is true)
+		            callback:     function(box) {
+		              // the callback is fired every time an animation is started
+		              // the argument that is passed in is the DOM node being animated
+		            }
+		        }
+		    );
+		    $(window).load(function(){
+		        wow.init();    
+		    });
+		    
+		</script>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-73155891-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+
+	</body>
+</html>
