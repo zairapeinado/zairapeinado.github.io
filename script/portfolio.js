@@ -5,12 +5,12 @@ var portfolio = [];
 portfolio.push({
 	id:			1,
 	title:		'VIVIENDA RESIDENCIAL',
-	text:		'Diseño de interiores para vivienda residencial. Vivienda unifamiliar en Residencial MB.<br>Espacio de salón, comedor y cocina',
+	text:		'Diseño de interiores para vivienda residencial. Vivienda unifamiliar en Residencial MB.<br>Espacio de salón, comedor, cocina y vista exterior.',
 	properties:	{
 					'Cliente':'Zaira Peinado',
 					'Categoría':'En construcción'
 				},
-	images:		3
+	images:		4
 });
 
 portfolio.push({
